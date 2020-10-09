@@ -1,8 +1,10 @@
 import React, { Fragment } from 'react';
 import { render } from 'react-dom';
 import { AppContainer as ReactHotAppContainer } from 'react-hot-loader';
-import { history, configuredStore } from './store';
+import { configuredStore, history } from './store';
 import './app.global.css';
+import 'react-grid-layout/css/styles.css';
+import 'react-resizable/css/styles.css';
 
 const store = configuredStore();
 
